@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: grey;
+  margin:0px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#css{
+  display: flex;
+  flex-wrap: wrap;
+  width: 120px;
+}
+
+.current{
+  border :1px solid;
+  padding-top:10px;
+}
+
+.drum-pad{
+  background-color: white;
+  border: 1px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.box{
+  border: 1px solid;
+  height: 50px;
+  width: 50px;
+}
